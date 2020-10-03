@@ -13,7 +13,9 @@ namespace Homework12
 
     class Car
     {
+        [MyIgnore]
         public string Mark;
+        [MyIgnore]
         public int HorsePowers;
     }
     class Program
